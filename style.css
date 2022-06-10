@@ -1,0 +1,321 @@
+*{
+        box-sizing: border-box;
+        font-size: inherit;
+        color: inherit;
+}
+body {
+        font-family: 'Exo 2', sans-serif;
+        margin: 0;
+        padding: 0;
+        
+}
+header{
+        background-image: url(./weedflower.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 7rem;
+        z-index: 3;
+}
+#container{
+       box-sizing: border-box;
+       font-size: 18px;
+}
+p{
+        max-width: 600px;
+}
+
+.headline{
+        display: flex;
+        flex-grow: 1;
+        margin-right:  2rem;
+        margin-left: 2rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        color: white;
+        background-color: #01546b;
+        height: 12px;
+        border: none;
+        border-radius: 10px;
+
+}
+.navigation{
+       display: flex;
+       padding-left: 25rem;
+       
+}
+.navigation a{
+        text-decoration: none;
+}
+.nav-item{
+        text-decoration: none;
+        margin-left: 15px;
+}
+.head-text{ 
+        color: white; 
+        font-weight: 200;
+        padding: 40px;
+        margin-top: 100px;
+}
+.head-text h1{
+        font-size: xx-large;
+}
+.double-button{
+        padding-bottom: 20%;
+        padding-left: 3%;
+}
+button{
+        text-decoration: none;
+        color: #0ac6fc;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid white;
+        margin-top: px;
+        margin-top: 20px;
+}
+.mybutton1{
+        background-color: #01546b;
+}
+.mybutton2:hover {
+                background-color: transparent;
+                border: 1px solid white;
+                transition: background-color .9s ease-in-out;
+}
+.mybutton1:hover {
+        background-color: black;
+        transition: background-color .9s ease-in-out;
+}
+#first-icons{
+        height: 10rem;
+        background-color: #01546b;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5rem;
+        z-index: 2;
+}
+#first-icons .contact-call, .mailing-up,
+.timing, .google-map {
+        margin: 20px;
+        padding-bottom: 30px;
+        color: antiquewhite;
+
+}
+#first-icons i{
+        position: relative;
+        top: 0.7rem;
+        bottom: 3rem;
+        background-color: #0ac6fc;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        
+}
+.first-icons, i:hover {
+        
+                background-color: black;
+                transition: background-color .9s ease-in-out;
+}
+.contact-call{
+        display: flex;
+        position: relative;
+        
+        
+}
+.mailing-up{
+        display: flex;
+       position: relative;
+}
+.timing{
+        display: flex;
+       position: relative;
+}
+.google-map{
+        display: flex;
+        position: relative;
+}
+.main-p{
+        padding-left: 40%;
+        padding-top: 60px;
+        font-size: smaller;
+}
+.cover{
+        border: 1px solid #026b8a;
+        width: 30%;
+        margin: 12px;
+        justify-content: center;
+        margin-left: 25px;
+        padding-bottom: 40px;
+        font-size: 17px;
+}
+.cover:hover {
+        color: white;
+        background-color: #026b8a;
+        transition: background-color .4s ease-in;
+}
+.cover i{
+        position: relative;
+        left: 85%;
+        bottom: 15px;
+}
+.cover-up{
+        display: flex;
+}
+.cover-up-2{
+        display: flex;
+}
+.cover h6, p, a {
+        padding-left: 15px;
+}
+.cover a{
+        margin-bottom: 15px;
+}
+.bush-forest{
+        background-image: url(./2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;background-position: center;
+        margin-bottom: 50px;
+        padding-bottom: 90px;
+        width: 100%;
+}
+.bush-cover{
+        background-color: white;
+        padding: 2%;
+        font-size: 14px;
+        border: 2px solid white;
+        max-width: 100%;
+        justify-content: space-around;
+        font-weight: normal;
+        margin: 50px;
+}
+.order{
+        display: flex;
+        align-items: flex-start; 
+}
+.num1-5{
+        position: relative;
+       left: 0rem;
+}
+.num6-10{
+        position: relative;
+        left: 15rem;
+}
+.one{
+        display: flex;
+
+}
+.two{
+        display: flex;
+}
+.three{
+        display: flex;
+}
+.four{
+        display: flex;
+}
+.five{
+        display: flex;
+}
+.six{
+        display: flex;
+}
+.seven{
+        display: flex;
+}
+.eight{
+        display: flex;
+}
+.nine{
+        display: flex;
+}
+.ten{
+        display: flex;
+}
+.numbers{
+        display: flex;
+  align-items: center;
+}
+.numb{
+        background-color: #0ac6fc;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 30px;
+}
+.forest-img{
+        max-width: 100%;
+        padding-left: 40%;
+        padding-bottom: 10%;
+        padding-top: 2px;
+
+}
+.three-color-img{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-left: 4rem;
+}
+.footer{
+        display: flex;
+        background-color: #01546b;
+        color: white;
+        font-size: small;
+        justify-content: space-between;
+}
+.footer-divs-1 h5, p{ 
+        padding-left: 30px;
+        font-size: smaller;
+}
+.social-contacts{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10px;
+        position: relative;
+        left: 1rem;
+}
+.social-contacts i {
+        background-color: #026b8a;
+        background-size: cover;
+        margin: 2px;
+        width: 25px;
+        height: 40px;
+        padding-right: 3rem;
+        justify-content: center;      
+}
+.footer-divs-2 p{
+      color: #026b8a;
+}
+.line{
+        border: 1px solid #026b8a;
+}
+.footer-divs-3 input{
+        width: 100%;
+        border: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: #347689;
+        outline: none;
+}
+input:active {
+        background-color: #0ac6fc;
+}
+.footer-divs-4{
+        font-size: small;
+        padding-right: 3rem;
+}
+.footer-foot{
+        display: flex;
+        justify-content: space-between;
+        background-color: #026b8a;
+        color: white;
+        width: 100%;
+        height: 80px;
+        text-transform: uppercase;
+} 
